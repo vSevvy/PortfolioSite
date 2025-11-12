@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://vsevvy.dev',
+  siteUrl: 'https://vsevvy.com',
   generateRobotsTxt: true,
   outDir: 'public',
 };
