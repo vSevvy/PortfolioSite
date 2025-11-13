@@ -3,7 +3,7 @@ import './globals.css';
 
 
 export const metadata: Metadata = {
-title: 'Evan — Portfolio',
+title: 'vSevvy - Development',
 description: 'Work, writing, and contact.',
 metadataBase: new URL('https://vsevvy.com'),
 openGraph: {
