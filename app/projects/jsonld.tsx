@@ -16,7 +16,7 @@ const jsonLd = {
 '@type': 'CreativeWork',
 name,
 description: summary,
-url: `https://yourdomain.com/projects/${slug}`,
+url: `https://vsevvy.com/projects/${slug}`,
 creator: { '@type': 'Person', name: 'Your Name' },
 image: ogImage,
 };
