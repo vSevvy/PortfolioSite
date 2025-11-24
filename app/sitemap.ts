@@ -3,7 +3,7 @@ import { projects } from '@/lib/projects';
 
 
 export default function sitemap(): MetadataRoute.Sitemap {
-const base = 'https://yourdomain.com';
+const base = 'https://vsevvy.com';
 const staticRoutes: MetadataRoute.Sitemap = [
 { url: `${base}/`, lastModified: new Date() },
 { url: `${base}/projects`, lastModified: new Date() },
