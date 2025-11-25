@@ -147,9 +147,9 @@ body {
 
   /* Page layout helpers */
 
-  .page-shell {
-    @apply mx-auto flex max-w-5xl flex-col px-4 md:px-6;
-  }
+ .page-shell {
+  @apply mx-auto flex w-full flex-col px-4 md:px-6;
+}
 
   .section {
     @apply page-shell py-12 md:py-16;
@@ -158,5 +158,9 @@ body {
   .section-muted {
     @apply section bg-card/60;
   }
+
+  .section-hero {
+  @apply page-shell py-12 md:py-20 min-h-[35vh];
+}
 }
 
