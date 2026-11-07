@@ -100,7 +100,7 @@ export default function HomePage() {
                         Location
                       </dt>
                       <dd className="text-right">
-                        Based in Northern Ireland, open to hybrid and remote
+                        Based in Sofia, Bulgaria, open to hybrid and remote
                         roles.
                       </dd>
                     </div>

@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Link from 'next/link';
 
 
 export default function ContactPage() {
@@ -28,6 +29,7 @@ return (
 <input name="name" placeholder="Your name" required className="w-full rounded-md border px-4 py-3" />
 <input name="email" type="email" placeholder="Email" required className="w-full rounded-md border px-4 py-3" />
 <textarea name="message" placeholder="Message" required rows={6} className="w-full rounded-md border px-4 py-3" />
+<p className="text-sm text-muted-foreground">Your details are used to handle your enquiry. Read the <Link href="/privacy" className="underline underline-offset-4">privacy statement</Link> before sending.</p>
 <button className="rounded-lg bg-brand px-5 py-3 font-medium text-white hover:bg-brand-dark transition">Send</button>
 {status && <p className="text-sm text-gray-600">{status}</p>}
 </form>

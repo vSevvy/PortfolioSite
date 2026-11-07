@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import PrivacyNotice from '@/components/PrivacyNotice';
 
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="min-h-screen bg-background text-foreground antialiased">
         {children}
+        <PrivacyNotice />
       </body>
     </html>
   );
