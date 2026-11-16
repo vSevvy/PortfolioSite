@@ -10,7 +10,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 { url: `${base}/contact`, lastModified: new Date() },
 { url: `${base}/privacy`, lastModified: new Date() },
 ];
-const projectRoutes: MetadataRoute.Sitemap = projects.map(p => ({
+const projectRoutes: MetadataRoute.Sitemap = projects.filter(p => !p.liveUrl).map(p => ({
 url: `${base}/projects/${p.slug}`,
 lastModified: new Date(),
 }));
